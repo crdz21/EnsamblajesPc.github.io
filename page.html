@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Proyecto</title>
+</head>
+
+<body>
+<!-- Sección para solicitar ensamblaje de ordenador a domicilio -->
+<div class="request-form">
+    <h3>Solicita el Ensamblaje de tu Ordenador a Domicilio</h3>
+    <!-- Formulario para solicitar ensamblaje -->
+    <form>
+        <!-- Campo para el nombre completo del solicitante -->
+        <label for="name">Nombre Completo:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <!-- Campo para el teléfono de contacto -->
+        <label for="phone">Teléfono de Contacto:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <!-- Campo para la dirección de ensamblaje -->
+        <label for="address">Dirección de Ensamblaje:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+        
+        <!-- Campo para detalles adicionales sobre la solicitud -->
+        <label for="details">Detalles Adicionales:</label>
+        <textarea id="details" name="details" rows="4"></textarea>
+        
+        <!-- Botón para enviar la solicitud -->
+        <button type="submit">Solicitar Ensamblaje</button>
+    </form>
+</div>
+
+    <!-- Sección sobre la guía de ensamblaje de computadoras -->
+    <div class="about">
+        <div class="left">
+            <div class="info">
+                <h2>Guia de ensamblaje de computadoras</h2>
+                <p>Te enseñaremos el funcionamiento de cada componente y como ensamblarlo.</p>
+            </div>
+        </div>
+        <div class="right">
+            <!-- Texto para escribir mi nombre / Autor de la guía -->
+            <a class="online"><i class="fas fa-circle"></i>by René Alejandro Cardoza García</a>
+            <img src="profile.png">
+        </div>
+    </div>
+
+    <!-- Sección que detalla los componentes de hardware -->
+    <div class="works">
+        <div class="left">
+            <h3><i class="fas fa-circle"></i>Componentes / Hardware</h3>
+            <div class="works-list">
+                <!-- Elemento individual de la lista de componentes -->
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Placa madre</h5>
+                        <p>La placa base, también conocida como tarjeta madre, placa madre o placa principal, es una tarjeta de circuito impreso a la que se conectan los componentes que constituyen la computadora.</p>
+                        <img src="placamadre.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Procesador</h5>
+                        <p>Es el componente principal que procesa las señales y hace posible la computación. Actúa como el cerebro de cualquier dispositivo de computación. Obtiene instrucciones de la memoria, realiza las tareas necesarias y envía la salida a la memoria.</p>
+                        <img src="procesador.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Memoria RAM</h5>
+                        <p>Es la memoria principal de un dispositivo, esa donde se almacenan de forma temporal los datos de los programas que estás utilizando en este momento.</p>
+                        <img src="ram.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5>Disco de almacenamiento</h5>
+                        <p>Las unidades de estado sólido (SSD) y las unidades de disco duro (HDD) son dispositivos de almacenamiento de datos. Las SSD almacenan datos en la memoria flash, mientras que las HDD almacenan datos en discos magnéticos.</p>
+                        <img src="discossd.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Tarjeta gráfica</h5>
+                        <p>Transforma los datos que envía el procesador. El resultado es una información visible y comprensible que puede apreciar el usuario. La tarjeta de video cuenta con componentes diseñados para procesar imágenes de video.</p>
+                        <img src="tarjetagrafica.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Carcasa o Case</h5>
+                        <p>Extensión de espacio en la estructura de un monitor CRT o de una pantalla LCD, en la cual se alojan los diversos dispositivos funcionales del equipo de cómputo</p>
+                        <img src="case.jpg">
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="work-info">
+                        <h5 class="active">Fuente de alimentación</h5>
+                        <p>Dispositivo que se utiliza para convertir la corriente de la red eléctrica en una forma de energía adecuada para los componentes de un dispositivo o sistema electrónico.</p>
+                        <img src="fuentedepoder.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- Sección que describe el proceso de ensamblaje y otros temas relacionados -->
+        <div class="right">
+            <div class="item">
+                <a>Proceso de ensamblar el ordenador</a>
+                <p>Preparativos
+                    Herramientas: Destornillador Phillips y pulsera antiestática.
+                    Componentes: Placa madre, procesador (CPU), memoria RAM, tarjeta gráfica (GPU), disco duro/SSD, ventiladores, fuente de alimentación (PSU) y case.
+                    Montaje
+                    Montar el Procesador:
+                    
+                    Levanta la palanca del socket del procesador en la placa madre.
+                    Coloca el procesador alineándolo correctamente.
+                    Baja la palanca del socket para asegurar el procesador.
+                    Instalar el Disipador/Enfriador del Procesador:
+                    
+                    Aplica pasta térmica si es necesario.
+                    Coloca y asegura el disipador sobre el procesador.
+                    Instalar la Memoria RAM:
+                    
+                    Alinea la RAM con las ranuras.
+                    Inserta la RAM firmemente hasta que las pestañas hagan clic.
+                    Montar la Placa Madre en el Case:
+                    
+                    Coloca los separadores en el case.
+                    Alinea y atornilla la placa madre en su lugar.
+                    Instalar la Fuente de Alimentación (PSU):
+                    
+                    Coloca la PSU en su compartimiento y asegúrala con tornillos.
+                    Conectar los Cables de la Fuente de Alimentación:
+                    
+                    Conecta el cable de 24 pines a la placa madre.
+                    Conecta el cable de 8 pines al CPU.
+                    Conecta los cables de alimentación a la GPU y discos.
+                    Instalar la Tarjeta Gráfica (GPU):
+                    
+                    Quita las tapas de los slots PCI.
+                    Inserta y asegura la GPU en el slot PCIe.
+                    Instalar el Almacenamiento (HDD/SSD):
+                    
+                    Coloca el HDD/SSD en su bahía y asegúralo.
+                    Conecta el cable de datos SATA y el cable de alimentación SATA.
+                    Instalar Ventiladores:
+                    
+                    Coloca los ventiladores en sus ubicaciones y conéctalos a la placa madre.
+                    Conectar Cables del Case:
+                    
+                    Conecta los cables del panel frontal del case a la placa madre (USB, audio, botones, LEDs).
+                    Verificar Conexiones y Organizar Cables:
+                    Revisa todas las conexiones.
+                    Organiza los cables con bridas o velcro.
+                    Encender y Configurar
+                    Encendido: Conecta el cable de alimentación y enciende el ordenador.
+                    BIOS/UEFI: Entra en la BIOS/UEFI para verificar los componentes y configurar opciones iniciales.
+                    Instalar Sistema Operativo: Inserta el medio de instalación del sistema operativo y sigue las instrucciones para instalarlo.
+                    Esto cubre los pasos esenciales para ensamblar tu ordenador de manera más concisa.</p>
+            </div>
+            <div class="item">
+                <a>Software</a>
+                <p>Es el conjunto de los programas de cómputo, procedimientos, reglas, documentación y datos asociados, que forman parte de las operaciones de un sistema de computación.</p>
+            </div>
+            <div class="item">
+                <a>Sistema operativo</a>
+                <p>Gestión de Procesos:
+                    Controla la ejecución de aplicaciones.
+                    Gestión de Memoria:
+                    Asigna y supervisa el uso de la RAM.
+                    Gestión de Archivos: Maneja la creación y organización de archivos.
+                    Gestión de Dispositivos: Controla la interacción con el hardware.
+                    Interfaz de Usuario: Proporciona una forma de interactuar con el sistema, ya sea mediante GUI o CLI.
+                    Tipos de Sistemas Operativos
+                    Windows: Popular en PCs, desarrollado por Microsoft.
+                    macOS: Utilizado en computadoras Apple.
+                    Linux: Sistema operativo de código abierto usado en servidores y PCs.</p>
+                    <p>Estos sistemas operativos facilitan la interacción con el hardware y el software de una computadora, proporcionando una plataforma estable y eficiente para ejecutar aplicaciones.</p>
+            </div>
+            <div class="item">
+                <a>Software después de instalar un software</a>
+                <p>Controladores (Drivers)
+                    Drivers de Video: Para asegurar la correcta visualización y resolución de la pantalla.
+                    Drivers de Audio: Para el funcionamiento de los altavoces y micrófonos.
+                    Drivers de Red: Para conectar a Internet o redes locales.
+                    Drivers de Impresoras y Otros Periféricos: Para el uso de impresoras, escáneres y otros dispositivos externos.
+                    Herramientas de Seguridad
+                    Antivirus/Antimalware: Para proteger el sistema contra virus y malware.
+                    Firewall: Aunque muchos sistemas operativos ya incluyen un firewall, a veces se puede optar por uno de terceros.
+                    Aplicaciones de Productividad
+                    Suite Ofimática: Microsoft Office, LibreOffice, Google Docs (acceso web).
+                    Correo Electrónico: Microsoft Outlook, Mozilla Thunderbird o clientes de correo basados en web como Gmail.
+                    Navegadores Web
+                    Navegadores: Google Chrome, Mozilla Firefox, Microsoft Edge, Safari (en macOS).
+                    Software de Comunicación
+                    Clientes de Mensajería: Microsoft Teams, Slack, Zoom, Skype.
+                    Reproductores Multimedia
+                    Reproductores de Video y Audio: VLC Media Player, Windows Media Player, iTunes (en macOS).
+                    Herramientas de Compresión
+                    Programas de Compresión: WinRAR, 7-Zip, WinZip.
+                    Utilidades del Sistema
+                    Software de Respaldo: Herramientas para hacer copias de seguridad, como Acronis True Image, Windows Backup.
+                    Software de Limpieza y Mantenimiento: CCleaner, herramientas de limpieza integradas en el sistema operativo.
+                    Software de Desarrollo (opcional)
+                    Editores de Texto y IDEs: Visual Studio Code, Notepad++, IntelliJ IDEA.
+                    Control de Versiones: Git, GitHub Desktop.
+                    Actualizaciones
+                    Actualizaciones del Sistema: Asegúrate de que el sistema operativo esté actualizado con los últimos parches de seguridad y mejoras.
+                    Instalar estos tipos de software proporcionará una base sólida para trabajar con tu nuevo sistema operativo, mejorando tanto la funcionalidad como la seguridad del sistema.</p>
+            </div>
+            <div class="item">
+                <a href="#">Componentes externos</a>
+                <p>Monitor: La pantalla donde se muestran las imágenes y la información procesada por la computadora.
+                Teclado: Dispositivo de entrada para escribir texto y comandos.
+                Mouse: Dispositivo de entrada para apuntar, hacer clic y navegar por la interfaz gráfica.
+                Altavoces/Auriculares: Para salida de audio.
+                Impresora/Escáner: Para imprimir documentos y digitalizar imágenes o texto.
+                Periféricos Adicionales
+                Cámara Web: Para videoconferencias y capturar imágenes o videos.
+                Micrófono: Para grabar audio o usar en videoconferencias.
+                Dispositivos de Almacenamiento Externo: Unidades flash USB, discos duros externos para almacenamiento adicional o respaldo.
+                Adaptadores de Red: Tarjetas o adaptadores Wi-Fi para conexión inalámbrica.
+                Dispositivos de Entrada Especializados
+                Tabletas Gráficas: Para diseño gráfico y dibujo digital.
+                Joysticks/Controladores de Juego: Para videojuegos.
+                Lectores de Tarjetas SD: Para transferir datos desde tarjetas de memoria.
+                Otros Componentes y Accesorios
+                Bases de Enfriamiento: Para ayudar a mantener la computadora portátil fría.
+                UPS (Sistema de Alimentación Ininterrumpida): Para proteger la computadora contra cortes de energía.</p>
+            </div>
+        </div>
+
+    </div>
+<!-- Sección para comentarios y sugerencias -->
+<div class="comments">
+    <h3>Dudas y/o Sugerencias</h3>
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="comment">Comentario:</label>
+        <textarea id="comment" name="comment" rows="4" required></textarea>
+        
+        <button type="submit">Enviar Comentario</button>
+    </form>
+</div>
+
+    <!-- Pie de página -->
+    <footer>
+        <a href="#">Proyecto final / 3er bimestre</a>
+        <div class="socials">
+            <a href="#">Hecho por: Alejandro Cardoza</a>
+        </div>
+        <a class="online"><i class="fas fa-circle"></i> Liceo Dr. Ricardo Bressani</a>
+    </footer>
+
+</body>
+
+</html>
